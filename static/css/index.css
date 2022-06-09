@@ -1,5 +1,78 @@
+:root {
+  /* Color */
+  --color-active: #26304b;
+  --color-white: #FFFFFF;
+  --color-light-white: #EEEEEE;
+  --color-dark-white: #BDBDBD;
+  --color-light-pink: #ff68삼겹살엔🌿미나리 필수45;
+  --color-pink: #FE918D;
+  --color-dark-pink: #FF6863;
+  --color-black: #4D4D4D;
+  --color-grey: #676767;
+  --color-dark-grey: #4D4D4D;
+  --color-light-grey: #7C7979;
+  --color-blue: #e4e8f6;
+  --color-light-blue: #d1c6dc;
+  --color-yellow: #FFF7D1;
+  --color-orange: #FEB546;
+  --color-black: #000000;
+  --color-light-pupple : #daa1fa;
+  --color-pupple : #c490e3;
+  --color-dark-pupple : #c490e3;
+  --color-dark-Violet: #9b7d9c;
+  --color-Violet: #c39fc4;
+  --color-light-Violet: #dfc9e0;
+  --color-light-Violet2: #f4e9f5;
+  --color-item: #a3a2a2;
+  --color-font-color: #848484;
+
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 800;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+
+  /* Size */
+  --size-border-radius: 4px;
+
+  /* Animation */
+  --animation-duration: 300ms;
+  --animation-fast-duration: 200ms;
+
+}
+
+
 /* Universal Tags */
 * {
   margin: 0;
   box-sizing: border-box;
 }
+
+.great__combi{
+  
+}
+
+.title__combi{
+  display: inline-block;
+}
+
+.title__main{
+  display:  block;
+  letter-spacing: -0.3px;
+  font-size : 18px;
+}
+
+.title__combi span{
+  display: block;
+  font-size : 13px;
+  color : var(--color-font-color);
+}
+
